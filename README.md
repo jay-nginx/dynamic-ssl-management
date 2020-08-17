@@ -16,25 +16,23 @@ What you need to run this locally:
 #### Creating self-signed certificate on your VM
 
 ```
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/www.example123.com.key -out /etc/nginx/ssl/www.example123.com.crt
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/www.example123.blog.com.key -out /etc/nginx/ssl/www.example123.blog.com.crt
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/www.example123.com.key -out /etc/nginx/ssl/www.example123.com.crt
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/www.example123.blog.com.key -out /etc/nginx/ssl/www.example123.blog.com.crt
 ```
 
 #### Editing your hosts file (based on your config/requirement)
 
 ```
-/etc/hosts
-<ip-address>  localhost www.example123.com  example123.com  www.example123.blog.com example123.blog.com www.example123.test.com example123.test.com
+$ sudo vi /etc/hosts
+<local-ip-address>  localhost www.example123.com  example123.com  www.example123.blog.com example123.blog.com www.example123.test.com example123.test.com
 ```
 
 ### Applying the configurations: Task 1 (task1.conf)
 
-In this task we set up a local 
 
-```
-This task has the configuration file which enables you to listen to port 80 and forwards the request to the secure server with https://$server_name$request_uri;
-Ensure you have the .crt & .key available at /etc/nginx/ssl/
-```
+This task has the configuration file which enables you to listen to port 80 on <local-ip-address> and forwards the request to the secure server with `https://$server_name$request_uri;`
+Please ensure you have the .crt & .key available at `/etc/nginx/ssl/`
+
 
 ### On success, remove the previous config and replace with config in: Task 2 (task2.conf)
 
