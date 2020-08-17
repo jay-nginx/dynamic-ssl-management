@@ -27,7 +27,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/
 <ip-address>  localhost www.example123.com  example123.com  www.example123.blog.com example123.blog.com www.example123.test.com example123.test.com
 ```
 
-### Applying the configurations: Task 1
+### Applying the configurations: Task 1 (task1.conf)
 
 In this task we set up a local 
 
