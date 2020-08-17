@@ -94,7 +94,6 @@ curl -d '{
 
 * [Ubuntu](https://ubuntu.com/) - My favourite Linux OS for testing
 * [NGINX Plus](https://www.nginx.com/free-trial-request/) - NGINX Plus Trial
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
