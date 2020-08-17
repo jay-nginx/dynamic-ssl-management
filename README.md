@@ -9,10 +9,10 @@ Link to YouTube Video:
 
 What you need to run this locally:
 
-```
-Ubuntu 18.04 with sudo access ( or other similar supported OS )
-NGINX Plus ( version R18 or above )
-```
+
+1. Ubuntu 18.04 with sudo access ( or other similar supported OS )
+1. NGINX Plus ( version R18 or above )
+
 #### Creating self-signed certificate on your VM
 
 ```
