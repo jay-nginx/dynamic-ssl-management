@@ -86,9 +86,9 @@ curl -d '{
 
 ## Useful Links
 * [Configuring HTTP Servers](http://nginx.org/en/docs/http/configuring_https_servers.html)
-* [NGINX Plus](https://www.nginx.com/free-trial-request/) - NGINX Plus Trial
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+* [NGINX SSL Module](http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl)
+* [NGINX Key-Value Module](http://nginx.org/en/docs/http/ngx_http_keyval_module.html)
+* [Admin Guide on Key-Value Store](https://docs.nginx.com/nginx/admin-guide/security-controls/blacklisting-ip-addresses/)
 
 ## Built With
 
@@ -100,22 +100,6 @@ curl -d '{
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Jay Desai** - *Other Repos* - [jay-nginx](https://github.com/jay-nginx)
