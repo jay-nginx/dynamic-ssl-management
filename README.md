@@ -9,7 +9,6 @@ Link to YouTube Video:
 
 What you need to run this locally:
 
-
 1. Ubuntu 18.04 with sudo access ( or other similar supported OS )
 1. NGINX Plus ( version R18 or above )
 
@@ -27,25 +26,25 @@ $ sudo vi /etc/hosts
 <local-ip-address>  localhost www.example123.com  example123.com  www.example123.blog.com example123.blog.com www.example123.test.com example123.test.com
 ```
 
-### Set up http > https forwarding: Task 1 (task1.conf)
+### Task 1: Set up http > https forwarding (task1.conf)
 
 
 This task has the configuration file which enables you to listen to port 80 on <local-ip-address> and forwards the request to the secure server with `https://$server_name$request_uri;`
 Please ensure you have the .crt & .key available at `/etc/nginx/ssl/`
 
 
-### Serve Multiple SSL Connections: Task 2 (task2.conf)
+### Task 2: Serve Multiple SSL Connections (task2.conf)
 
 In this task we include another server name which nginx will listen for by including another `server` block in the configuration. 
 
 
-### Replace cert/key name with variable: Task 3 (task3.conf)
+### Task 3: Replace cert/key name with variable (task3.conf)
 
 In this task we combine the multiple server configs into one server block. However, you may still need multiple server blocks based on your requirements. 
 In this config we introduce the variable `$ssl_server_name` instead of the name of .crt & .key
 
 
-### Key-Value: Storing certs/keys in memory: Task 4 (task4.conf)
+### Task 4: Key-Value: Storing certs/keys in memory (task4.conf)
 
 In this task we introduce the off-disk storage of cert & key with key-value data store. 
 Review the additional links at the bottom of this document to get more details on how key-value store works.
