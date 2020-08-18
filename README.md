@@ -83,6 +83,11 @@ $ curl -d '{
 * [NGINX Key-Value Module](http://nginx.org/en/docs/http/ngx_http_keyval_module.html)
 * [Admin Guide on Key-Value Store](https://docs.nginx.com/nginx/admin-guide/security-controls/blacklisting-ip-addresses/)
 
+## Troubleshooting
+
+* Check the prmisssions on the .crt & key if you see errors in NGINX with `$ssl_server_name` variable. 
+* Ensure that you have verified that the .crt/.key files are both valid. 
+
 ## Built With
 
 * [Ubuntu](https://ubuntu.com/) - My favourite Linux OS for testing
