@@ -3,7 +3,7 @@ This repo has the necessary files to take you through the various stages of dyna
 The intention of this repo is to demonstrate a specific functionality, please ensure you have necessary checks and security enabled when you use similar config in your Production Environments. 
 
 Link to YouTube Video:
-* [LINK](https://youtube.com/)
+* [LINK](https://youtu.be/aeLE988jmlo)
 
 ### Prerequisites
 
