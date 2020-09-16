@@ -1,5 +1,5 @@
 # Dynamic SSL Key/Cert Management with Nginx Plus
-This repo has the necessary files to take you through the various stages of dynamically managing SSL keys and certificates in Nginx Plus. There are seperate .conf file for each step as we progress.
+This repo has the necessary files to take you through the various stages of dynamically managing SSL keys and certificates with Nginx Plus. There are seperate .conf file for each step as we progress.
 The intention of this repo is to demonstrate a specific functionality, please ensure you have necessary checks and security enabled when you use similar config in your Production Environments. 
 
 Link to YouTube Video:
